@@ -728,6 +728,60 @@
   border-radius: 8px;
   padding: 32px 26px;
 }
+.visitor__collection .visitor-contact .visitor-item {
+  background: red;
+  width: 274px;
+  border-radius: 6px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 24px 17px 26px 24px;
+}
+.visitor__collection .visitor-contact .visitor-item__left {
+  display: flex;
+  align-items: center;
+}
+.visitor__collection .visitor-contact .visitor-item__icon {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.visitor__collection .visitor-contact .visitor-item__text {
+  margin-left: 17px;
+  display: flex;
+  flex-direction: column;
+}
+.visitor__collection .visitor-contact .visitor-item__title {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.visitor__collection .visitor-contact .visitor-item__desc {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 8px;
+}
+.visitor__collection .visitor-contact .visitor-item__dots {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.visitor__collection .visitor-contact .visitor-item__dot {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #fff;
+}
+.visitor__collection .visitor-contact .visitor-item--orange {
+  background: #ff974a;
+}
 
 * {
   box-sizing: border-box;
