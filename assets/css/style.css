@@ -905,6 +905,100 @@
   margin-top: 10px;
 }
 
+.team-work__container {
+  width: 1172px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+.team-work__inner {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.team-work__media {
+  position: relative;
+}
+.team-work__media .engagement {
+  width: 370px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.team-work__media .engagement__dots {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  background: #ffffff;
+  border-radius: 8px 8px 0px 0px;
+  padding: 12px 17px;
+}
+.team-work__media .engagement__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.team-work__media .engagement__dot--red {
+  background: #ee6a5f;
+}
+.team-work__media .engagement__dot--yellow {
+  background: #f5be4f;
+}
+.team-work__media .engagement__dot--green {
+  background: #62c554;
+}
+.team-work__media .engagement__customer {
+  background: #d2efff;
+  padding: 17px 29px 27px 25px;
+}
+.team-work__media .engagement__text {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.31;
+  color: #1c1c24;
+}
+.team-work__media .engagement__bar {
+  position: absolute;
+  width: 50px;
+  height: 18px;
+  background: #52c1ff;
+  border-radius: 9px;
+  right: 55px;
+  top: 116px;
+}
+.team-work__media .engagement__chart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.team-work__media .engagement__column {
+  width: 28px;
+  background: #1c1c24;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+.team-work__media .engagement__column--one {
+  height: 117px;
+}
+.team-work__media .engagement__column--two {
+  height: 63px;
+}
+.team-work__media .engagement__column--three {
+  height: 66px;
+}
+.team-work__media .engagement__column--four {
+  height: 82px;
+}
+.team-work__media .engagement__column--five {
+  height: 155px;
+}
+.team-work__media .engagement__column--six {
+  height: 106px;
+}
+.team-work__media .engagement__column--seven {
+  height: 84px;
+}
+
 * {
   box-sizing: border-box;
 }
