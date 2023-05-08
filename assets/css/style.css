@@ -722,6 +722,12 @@
   line-height: 17px;
   color: #000000;
 }
+.visitor__collection .visitor-contact {
+  width: 426px;
+  background: #292932;
+  border-radius: 8px;
+  padding: 32px 26px;
+}
 
 * {
   box-sizing: border-box;
