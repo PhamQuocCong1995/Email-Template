@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Email Template Design</title>
+
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+
+        <!-- Ember Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <!-- Style SCSS -->
+        <link rel="stylesheet" href="./assets/css/style.scss" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header__container">
+                <div class="header__inner">
+                    <!-- Logo -->
+                    <a href="#!" class="header__logo"> Togi </a>
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">
+                                    Products
+                                    <svg
+                                        width="10"
+                                        height="6"
+                                        viewBox="0 0 10 6"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M9.2 0.900002L5 5.1L0.8 0.900002"
+                                            stroke="#B0B0B0"
+                                            stroke-width="1.25"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link"> Pricing </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">
+                                    Company
+                                    <svg
+                                        width="10"
+                                        height="6"
+                                        viewBox="0 0 10 6"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M9.2 0.900002L5 5.1L0.8 0.900002"
+                                            stroke="#B0B0B0"
+                                            stroke-width="1.25"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link"> Blog </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- Header action -->
+                    <div class="header-action">
+                        <a href="#!" class="btn header-action__login">Log in</a>
+                        <a href="#!" class="btn header-action__start">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__inner">
+                    <!-- Social sidebar -->
+                    <div class="social-sidebar">
+                        <!-- Social list -->
+                        <div class="social-list">
+                            <!-- Social item -->
+                            <a href="#!" class="social-list__item">
+                                <svg
+                                    width="10"
+                                    height="10"
+                                    viewBox="0 0 10 10"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M0.5 1.54545C0.5 1.24242 0.601354 0.992418 0.804054 0.795455C1.00675 0.598482 1.27027 0.5 1.59459 0.5C1.91313 0.5 2.17085 0.596964 2.36776 0.790909C2.57046 0.990909 2.67181 1.25151 2.67181 1.57273C2.67181 1.86364 2.57336 2.10605 2.37645 2.3C2.17375 2.5 1.90734 2.6 1.57722 2.6H1.56853C1.25 2.6 0.992281 2.5 0.795367 2.3C0.598453 2.1 0.5 1.84848 0.5 1.54545ZM0.612934 9.5V3.42727H2.54151V9.5H0.612934ZM3.61004 9.5H5.53861V6.10909C5.53861 5.89696 5.56178 5.73333 5.60811 5.61818C5.68919 5.41212 5.81226 5.23787 5.97732 5.09545C6.14237 4.95303 6.34942 4.88182 6.59846 4.88182C7.24711 4.88182 7.57143 5.33939 7.57143 6.25455V9.5H9.5V6.01818C9.5 5.12121 9.2973 4.44091 8.89189 3.97727C8.48648 3.51364 7.95078 3.28182 7.28475 3.28182C6.53764 3.28182 5.9556 3.61818 5.53861 4.29091V4.30909H5.52992L5.53861 4.29091V3.42727H3.61004C3.62162 3.62121 3.62741 4.22424 3.62741 5.23636C3.62741 6.24848 3.62162 7.66969 3.61004 9.5Z"
+                                        fill="currentColor"
+                                    />
+                                </svg>
+                            </a>
+                            <!-- Social item -->
+                            <a href="#!" class="social-list__item">
+                                <svg
+                                    width="6"
+                                    height="14"
+                                    viewBox="0 0 6 14"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M1.32084 7.04951V13.3303C1.32084 13.4151 1.3911 13.5 1.48946 13.5H3.80796C3.89227 13.5 3.97658 13.4293 3.97658 13.3303V6.93634H5.64871C5.73302 6.93634 5.80328 6.86562 5.81733 6.78074L5.95785 4.87106C5.9719 4.77203 5.88759 4.68716 5.78923 4.68716H3.96253V3.32916C3.96253 3.00381 4.21546 2.74918 4.53864 2.74918H5.83138C5.91569 2.74918 6 2.67845 6 2.57943V0.66975C6 0.584875 5.92974 0.5 5.83138 0.5H3.63934C2.36066 0.5 1.32084 1.54679 1.32084 2.83406V4.68716H0.168618C0.0843092 4.68716 0 4.75789 0 4.85691V6.78074C0 6.86562 0.0702577 6.95049 0.168618 6.95049H1.32084V7.04951V7.04951Z"
+                                        fill="currentColor"
+                                    />
+                                </svg>
+                            </a>
+                            <!-- Social item -->
+                            <a href="#!" class="social-list__item">
+                                <svg
+                                    width="10"
+                                    height="8"
+                                    viewBox="0 0 10 8"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M10 0.947583C9.62383 1.10912 9.226 1.21649 8.81874 1.26637C9.24794 1.01565 9.56882 0.618637 9.72058 0.150555C9.31881 0.385153 8.87926 0.550379 8.42092 0.639088C8.13983 0.343401 7.77488 0.137815 7.37353 0.0490603C6.97217 -0.039694 6.55298 -0.00751064 6.17045 0.141426C5.78792 0.290362 5.45975 0.549161 5.22861 0.884175C4.99747 1.21919 4.87405 1.61492 4.8744 2.01992C4.87282 2.17446 4.88876 2.32869 4.92192 2.47976C4.10634 2.44039 3.30838 2.232 2.58021 1.8682C1.85204 1.5044 1.21006 0.993394 0.696227 0.368581C0.432422 0.812591 0.350671 1.33898 0.467661 1.84032C0.58465 2.34165 0.891559 2.78013 1.32575 3.06626C1.00137 3.05763 0.683851 2.97236 0.399947 2.81764V2.83964C0.400481 3.30574 0.5641 3.75744 0.863263 4.11869C1.16243 4.47994 1.57886 4.72868 2.04248 4.82306C1.86709 4.86857 1.68633 4.89093 1.50495 4.88953C1.37472 4.8918 1.24461 4.88024 1.11689 4.85505C1.24939 5.25563 1.50475 5.60593 1.84781 5.85773C2.19088 6.10953 2.60478 6.25044 3.03255 6.26107C2.30689 6.81979 1.41194 7.1229 0.49072 7.12197C0.326712 7.12303 0.162803 7.11375 0 7.09418C0.937419 7.68891 2.02977 8.00352 3.14495 7.99997C6.91739 7.99997 8.97998 4.92332 8.97998 2.25644C8.97998 2.16717 8.97683 2.0811 8.97246 1.99552C9.37683 1.71061 9.72504 1.35549 10 0.947583Z"
+                                        fill="currentColor"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="social-list__group">
+                            <div class="social-list__group-text">
+                                SCROLL DOWN
+                            </div>
+                            <a href="#!">
+                                <svg
+                                    class="social-list__group-downarrow"
+                                    width="7"
+                                    height="20"
+                                    viewBox="0 0 7 20"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        fill-rule="evenodd"
+                                        clip-rule="evenodd"
+                                        d="M7 15.5L3.66987 20L0.339745 15.5L2.91987 15.5L2.91987 -1.51594e-07L4.41987 -9.58629e-08L4.41987 15.5L7 15.5Z"
+                                        fill="#FF974A"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Hero main -->
+                    <div class="hero__main">
+                        <!-- Hero content -->
+                        <section class="hero__content">
+                            <h1 class="hero__heading">
+                                More than your average popup builder
+                            </h1>
+                            <p class="hero__desc">
+                                Everything you need—forms, sidebars, slide-ins,
+                                gamification—to turn your traffic into revenue.
+                            </p>
+                            <a href="#!" class="btn"> Start your free trial </a>
+                        </section>
+
+                        <!-- Hero media -->
+                        <div class="hero__media">
+                            <div class="media__top">
+                                <img
+                                    src="./assets/image/hero-decor-01.svg"
+                                    alt=""
+                                    class="media__decor"
+                                />
+                                <img
+                                    src="./assets/image/hero-decor-02.svg"
+                                    alt=""
+                                    class="media__decor"
+                                />
+                                <img
+                                    src="./assets/image/hero-decor-03.svg"
+                                    alt=""
+                                    class="media__decor"
+                                />
+                                <!-- Hero search -->
+                                <div class="hero-search">
+                                    <form action="" class="searching-form">
+                                        <input
+                                            class="searching-form__input"
+                                            type="text"
+                                            name=""
+                                            id=""
+                                            placeholder="Search people"
+                                        />
+                                        <button
+                                            type="submit"
+                                            class="searching-form__submit"
+                                        >
+                                            <svg
+                                                width="15"
+                                                height="15"
+                                                viewBox="0 0 15 15"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <circle
+                                                    cx="6.84442"
+                                                    cy="6.84439"
+                                                    r="5.99237"
+                                                    stroke="white"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                />
+                                                <path
+                                                    d="M11.0122 11.3234L13.3616 13.6667"
+                                                    stroke="white"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                />
+                                            </svg>
+                                        </button>
+                                    </form>
+                                    <div class="hero-search__border"></div>
+                                    <!-- Hero member list -->
+                                    <div class="hero-search__list">
+                                        <!-- Hero member 1 -->
+                                        <div class="hero-member">
+                                            <div class="hero-member__info">
+                                                <img
+                                                    src="./assets/image/hero-member-01.jpg"
+                                                    alt=""
+                                                    class="hero-member__img"
+                                                />
+                                                <div class="hero-member__text">
+                                                    <span>Ever Obi</span>
+                                                    <span>UI/UX Designer</span>
+                                                </div>
+                                            </div>
+                                            <span class="hero-member__invite">
+                                                Invite
+                                            </span>
+                                        </div>
+
+                                        <!-- Hero member 2 -->
+                                        <div class="hero-member">
+                                            <div class="hero-member__info">
+                                                <img
+                                                    src="./assets/image/hero-member-02.jpg"
+                                                    alt=""
+                                                    class="hero-member__img"
+                                                />
+                                                <div class="hero-member__text">
+                                                    <span>Nicolas Gr</span>
+                                                    <span>UI/UX Designer</span>
+                                                </div>
+                                            </div>
+                                            <span class="hero-member__invite">
+                                                Invite
+                                            </span>
+                                        </div>
+
+                                        <!-- Hero member 3 -->
+                                        <div class="hero-member">
+                                            <div class="hero-member__info">
+                                                <img
+                                                    src="./assets/image/hero-member-03.jpg"
+                                                    alt=""
+                                                    class="hero-member__img"
+                                                />
+                                                <div class="hero-member__text">
+                                                    <span>Carpenter H.</span>
+                                                    <span>UI/UX Designer</span>
+                                                </div>
+                                            </div>
+                                            <span class="hero-member__invite">
+                                                Invite
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Hero rectangle -->
+                                <div class="hero-rectangle">
+                                    <!-- Hero rectangle item -->
+                                    <div
+                                        class="hero-rectangle__item hero-rectangle__item--green"
+                                    >
+                                        <span
+                                            class="hero-rectangle__barup"
+                                        ></span>
+                                        <span
+                                            class="hero-rectangle__bardown"
+                                        ></span>
+                                    </div>
+                                    <!-- Hero rectangle item -->
+                                    <div
+                                        class="hero-rectangle__item hero-rectangle__item--white"
+                                    >
+                                        <span
+                                            class="hero-rectangle__barup"
+                                        ></span>
+                                        <span
+                                            class="hero-rectangle__bardown"
+                                        ></span>
+                                    </div>
+                                    <!-- Hero rectangle item -->
+                                    <div
+                                        class="hero-rectangle__item hero-rectangle__item--pink"
+                                    >
+                                        <span
+                                            class="hero-rectangle__barup"
+                                        ></span>
+                                        <span
+                                            class="hero-rectangle__bardown"
+                                        ></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mess-sending">
+                                <input
+                                    class="mess-sending__input"
+                                    type="text"
+                                    name=""
+                                    id=""
+                                    placeholder="Hi, what the process?"
+                                />
+                                <div class="mess-sending__group">
+                                    <img
+                                        src="./assets/icon/hero-icon-01.svg"
+                                        alt=""
+                                    />
+                                    <img
+                                        src="./assets/icon/hero-icon-02.svg"
+                                        alt=""
+                                    />
+                                    <a href="#!" class="mess-sending__icon">
+                                        <img
+                                            src="./assets/icon/hero-icon-03.svg"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <main style="height: 10000px">
+            <!-- Email Capture -->
+            <section class="emailcap">
+                <div class="emailcap__container">
+                    <div class="emailcap__inner">
+                        <!-- Emailcap media -->
+                        <div class="emailcap__media">
+                            <img
+                                src="./assets/image/multi-point.svg"
+                                alt=""
+                                class="emailcap__media-decor"
+                            />
+                            <div class="emailcap__media-bg">
+                                <div class="chart">
+                                    <div class="chart-group">
+                                        <div
+                                            class="chart-group__circle chart-group__circle--red"
+                                        ></div>
+                                        <div
+                                            class="chart-group__circle chart-group__circle--yellow"
+                                        ></div>
+                                        <div
+                                            class="chart-group__circle chart-group__circle--green"
+                                        ></div>
+                                    </div>
+                                    <div class="chart-border"></div>
+                                    <div class="chart-data">
+                                        <div class="chart-data__rectangle">
+                                            <div class="chart-data__blue">
+                                                <div
+                                                    class="chart-data__blue-bar"
+                                                ></div>
+                                                <div
+                                                    class="chart-data__blue-bar"
+                                                ></div>
+                                                <div
+                                                    class="chart-data__blue-bar"
+                                                ></div>
+                                                <div
+                                                    class="chart-data__blue-bar"
+                                                ></div>
+                                            </div>
+                                        </div>
+                                        <div class="chart-data__group">
+                                            <div class="chart-data__column">
+                                                <div
+                                                    class="chart-data__column-bar"
+                                                ></div>
+                                                <div
+                                                    class="chart-data__column-bar"
+                                                ></div>
+                                                <div
+                                                    class="chart-data__column-group"
+                                                >
+                                                    <div
+                                                        class="char-column"
+                                                    ></div>
+                                                    <div
+                                                        class="char-column"
+                                                    ></div>
+                                                    <div
+                                                        class="char-column"
+                                                    ></div>
+                                                    <div
+                                                        class="char-column"
+                                                    ></div>
+                                                </div>
+                                                <div
+                                                    class="chart-data__column-bottom"
+                                                ></div>
+                                            </div>
+                                            <div class="chart-data__pink">
+                                                <div
+                                                    class="chart-data__pink-bar"
+                                                ></div>
+                                                <div
+                                                    class="chart-data__pink-bar"
+                                                ></div>
+                                                <div
+                                                    class="chart-data__pink-bar"
+                                                ></div>
+                                                <div
+                                                    class="chart-data__pink-bar"
+                                                ></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Emailcap content -->
+                        <section class="emailcap__content">
+                            <div class="section-label">email capture</div>
+                            <h2
+                                class="section-heading emailcap__content-heading"
+                            >
+                                Multiple popups for multiple goals
+                            </h2>
+                            <p
+                                class="section-desc emailcap__content-desc--small"
+                            >
+                                From email capture to reducing cart abandonment,
+                                create multiple.
+                            </p>
+                            <p
+                                class="section-desc emailcap__content-desc--large"
+                            >
+                                From email capture to reducing cart abandonment,
+                                create multiple, personalized popups for
+                                different groups of visitors. From email capture
+                                to reducing cart abandonment, create multiple,
+                                personalized popups for different groups of
+                                visitors.
+                            </p>
+                            <a href="#!" class="btn emailcap__content-btn">
+                                Start your free trial
+                            </a>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Subscribers -->
+            <section class="subscriber">
+                <div class="subscriber__container">
+                    <div class="subscriber__inner">
+                        <div class="section-label">Returning subscribers</div>
+                        <h2 class="section-heading subscriber__heading">
+                            Turn new visitors into subscribers
+                        </h2>
+
+                        <!-- Subscribers detail list -->
+                        <div class="subscriber-list">
+                            <!-- Subscribers item 1 -->
+                            <div class="subscriber-list__item">
+                                <a href="#!" class="subscriber-list__item-icon">
+                                    <img
+                                        src="./assets/icon/subscriber-icon-email.svg"
+                                        alt=""
+                                    />
+                                </a>
+                                <div class="subscriber-list__item-text">
+                                    <span>Collect more emails</span>
+                                    <span>
+                                        Grow a segmented email list with quality
+                                        subscribers.
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- Subscribers item 2 -->
+                            <div class="subscriber-list__item">
+                                <a href="#!" class="subscriber-list__item-icon">
+                                    <img
+                                        src="./assets/icon/subscriber-icon-sale.svg"
+                                        alt=""
+                                    />
+                                </a>
+                                <div class="subscriber-list__item-text">
+                                    <span>Increase your sales</span>
+                                    <span>
+                                        Sell more to your website visitors and
+                                        make the most of your traffic.
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- Subscribers item 3 -->
+                            <div class="subscriber-list__item">
+                                <a href="#!" class="subscriber-list__item-icon">
+                                    <img
+                                        src="./assets/icon/subscriber-icon-visitors.svg"
+                                        alt=""
+                                    />
+                                </a>
+                                <div class="subscriber-list__item-text">
+                                    <span>Get in touch with visitors</span>
+                                    <span>
+                                        Send each visitor to the products or
+                                        pages they should see.
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- Subscribers item 4 -->
+                            <div class="subscriber-list__item">
+                                <a href="#!" class="subscriber-list__item-icon">
+                                    <img
+                                        src="./assets/icon/subscriber-icon-guide.svg"
+                                        alt=""
+                                    />
+                                </a>
+                                <div class="subscriber-list__item-text">
+                                    <span>Guide visitors around</span>
+                                    <span>
+                                        Invite visitors to contact you for
+                                        support, feedback, or a sales call.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Visitor -->
+            <section class="visitor">
+                <div class="visitor__container">
+                    <div class="visitor__inner">
+                        <div class="section-label visitor__label">
+                            Meet each visitor
+                        </div>
+                        <h2 class="section-heading visitor__heading">
+                            Help subscribers make their first buy
+                        </h2>
+
+                        <!-- Visitor collection -->
+                        <div class="visitor__collection">
+                            <div class="visitor-info">
+                                <!-- Visitor info item 1 -->
+                                <div class="visitor-info__item">
+                                    <div class="visitor-info__icon">
+                                        <img
+                                            src="./assets/icon/home.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="visitor-info__data visitor-info__data--yellow"
+                                    >
+                                        <span class="visitor-info__name">
+                                            Page visits
+                                        </span>
+                                        <span class="visitor-info__number">
+                                            1228
+                                        </span>
+                                        <span class="visitor-info__proof">
+                                            67% from the last email sent
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <!-- Visitor info item 2 -->
+                                <div class="visitor-info__item">
+                                    <div class="visitor-info__icon">
+                                        <img
+                                            src="./assets/icon/email.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="visitor-info__data visitor-info__data--white"
+                                    >
+                                        <span class="visitor-info__name">
+                                            Email sent
+                                        </span>
+                                        <span class="visitor-info__number">
+                                            1397
+                                        </span>
+                                        <span class="visitor-info__proof">
+                                            67% from the last email sent
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <!-- Visitor info item 3 -->
+                                <div
+                                    class="visitor-info__item visitor-info__item--bigger"
+                                >
+                                    <div
+                                        class="visitor-info__icon visitor-info__icon--bigger"
+                                    >
+                                        <img
+                                            src="./assets/icon/box.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div
+                                        class="visitor-info__data visitor-info__data--pink"
+                                    >
+                                        <span
+                                            class="visitor-info__name visitor-info__name--bigger"
+                                        >
+                                            Product bought
+                                        </span>
+                                        <span
+                                            class="visitor-info__number visitor-info__number--bigger"
+                                        >
+                                            631
+                                        </span>
+                                        <span
+                                            class="visitor-info__proof visitor-info__proof--bigger"
+                                        >
+                                            17% from the last email sent
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="visitor-contact">
+                                <!-- Visitor contact item 1 -->
+                                <div class="visitor-contact__item">
+                                    <div class="visitor-contact__item__icon">
+                                        <svg
+                                            width="20"
+                                            height="19"
+                                            viewBox="0 0 20 19"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        >
+                                            <mask
+                                                id="mask0_1_204"
+                                                style="mask-type: alpha"
+                                                maskUnits="userSpaceOnUse"
+                                                x="0"
+                                                y="0"
+                                                width="20"
+                                                height="19"
+                                            >
+                                                <rect
+                                                    x="0.80542"
+                                                    y="0.463135"
+                                                    width="18.5025"
+                                                    height="18.5025"
+                                                    fill="url(#pattern0)"
+                                                />
+                                            </mask>
+                                            <g mask="url(#mask0_1_204)">
+                                                <rect
+                                                    x="0.80542"
+                                                    y="0.463135"
+                                                    width="18.5025"
+                                                    height="18.5025"
+                                                    fill="#FF974A"
+                                                />
+                                            </g>
+                                            <defs>
+                                                <pattern
+                                                    id="pattern0"
+                                                    patternContentUnits="objectBoundingBox"
+                                                    width="1"
+                                                    height="1"
+                                                >
+                                                    <use
+                                                        xlink:href="#image0_1_204"
+                                                        transform="scale(0.00195312)"
+                                                    />
+                                                </pattern>
+                                                <image
+                                                    id="image0_1_204"
+                                                    width="512"
+                                                    height="512"
+                                                    xlink:href="data:image/png;base64,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"
+                                                />
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                    <div class="visitor-contact__item__text">
+                                        <span
+                                            class="visitor-contact__item__text__title"
+                                        >
+                                            Applicant status
+                                        </span>
+                                        <span
+                                            class="visitor-contact__item__text__desc"
+                                        >
+                                            Applying
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
