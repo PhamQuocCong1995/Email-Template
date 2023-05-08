@@ -384,6 +384,10 @@
             background: #292932;
             border-radius: 8px;
             padding: 32px 26px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            row-gap: 20px;
             .visitor-item {
                 background: red;
                 width: 274px;
@@ -437,6 +441,15 @@
                 }
                 &--orange {
                     background: #ff974a;
+                }
+                &--green {
+                    background: #79d861;
+                }
+                &--blue {
+                    background: #1e75ff;
+                }
+                &--left {
+                    margin-right: 99px;
                 }
             }
         }
