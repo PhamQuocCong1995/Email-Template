@@ -914,12 +914,13 @@
   padding: 80px 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .team-work__media {
-  position: relative;
+  width: 40%;
 }
 .team-work__media .engagement {
+  margin-left: 92px;
   width: 370px;
   border-radius: 8px;
   overflow: hidden;
@@ -948,6 +949,7 @@
   background: #62c554;
 }
 .team-work__media .engagement__customer {
+  position: relative;
   background: #d2efff;
   padding: 17px 29px 27px 25px;
 }
@@ -964,7 +966,7 @@
   background: #52c1ff;
   border-radius: 9px;
   right: 55px;
-  top: 116px;
+  top: 80px;
 }
 .team-work__media .engagement__chart {
   display: flex;
@@ -997,6 +999,60 @@
 }
 .team-work__media .engagement__column--seven {
   height: 84px;
+}
+.team-work__media .revenue {
+  position: relative;
+  margin-top: -77px;
+  width: 218px;
+  background: #f6ff82;
+  border-radius: 8px;
+  padding: 21px;
+  z-index: 1;
+}
+.team-work__media .revenue__text {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.25;
+  color: #1c1c24;
+}
+.team-work__media .revenue__bar {
+  width: 166px;
+  height: 14px;
+  background: rgba(28, 28, 36, 0.2);
+  border-radius: 7px;
+  margin-top: 12px;
+}
+.team-work__media .revenue__border {
+  width: 178px;
+  height: 1px;
+  background: rgba(28, 28, 36, 0.2);
+  margin: 18px 0;
+}
+.team-work__media .revenue__group {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.team-work__media .revenue__group .group__bar {
+  width: 126px;
+  height: 14px;
+  background: rgba(28, 28, 36, 0.2);
+  border-radius: 7px;
+}
+.team-work__media .revenue__group .group__bar--small {
+  width: 44px;
+  margin-left: 12px;
+}
+.team-work__content {
+  width: 38%;
+}
+.team-work__heading {
+  margin-top: 8px;
+}
+.team-work__desc {
+  width: 382px;
+  margin-top: 28px;
 }
 
 * {
